@@ -7,10 +7,17 @@ Customizable Delay: You can adjust the delay between key presses in the macro to
 Toggle Functionality: Use a designated toggle key to enable or disable the macro functionality on the fly.
 Auto-Update with Loader: The program supports auto-updating through the use of loader.pyw. This ensures you always have the latest version of the macro program.
 
-## Usage:
-Press the designated toggle key to enable or disable the macro functionality.
-Press the macro buttons while the macro is enabled to trigger the defined actions.
-Customize the delay in the macro execution to control the speed of key presses.
+## Setup:
+1. Install `loader.pyw`.
+2. Run `loader.pyw` with **PythonW**.
+3. Have fun with OP dashes :>.
+
+## Keybinds (Default):
+Toggle : Home
+Finish Code : CTRL + End
+Macro Buttons : W, A, S, D
+
+Note : You can change keybinds and delay.
 
 ## Credits:
 This macro program was developed by lxv from the Unbesiegbar.
