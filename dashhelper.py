@@ -1,11 +1,11 @@
 import os
 from time import sleep as wait
 try: import keyboard
-except: os.system('pip install keyboard')
+except: os.system('pip install keyboard'); import keyboard
 try: import requests
-except: os.system('pip install requests')
+except: os.system('pip install requests'); import requests
 try: import win32gui
-except: os.system('pip install pywin32')
+except: os.system('pip install pywin32'); import win32gui
 
 try: exec("toggle_key")
 except: toggle_key = "home"
